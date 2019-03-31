@@ -8,9 +8,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		dryRun = true,
+	
 		features ="src/test/java/features",
-				glue ="src/test/java/stepDefinitions",
+				glue ="stepDefinitions",
 				monochrome = true,
 				plugin = {"pretty","html:target/site/cucumber-report-default",
 					"json:target/site/cucumber.json"	},

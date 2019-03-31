@@ -16,11 +16,11 @@ Feature: Login feature
 	When I open login page again
 	
 
-  Scenario: Login to system
-	Given I input to Usernanme textbox
+ 
+	And I input to Usernanme textbox
 	And I input to Password textbox
 	And I click to login button at Login page
-	Then Verify Home page dislayed with message "Welcome To Manager's page of Guru99 Bank"
+	Then Verify Home page dislayed with message "Welcome To Manager's Page of Guru99 Bank"
 
 
   
